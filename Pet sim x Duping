@@ -1,0 +1,482 @@
+--Duping script by the RblxAnny.
+--Official script.
+--we will update this script
+end)
+
+local DupeGUI = Instance.new("ScreenGui")
+local UIPadding = Instance.new("UIPadding")
+local Frame = Instance.new("Frame")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local pattern = Instance.new("ImageLabel")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local uistroke = Instance.new("TextLabel")
+local uistroke_2 = Instance.new("TextLabel")
+local uistroke_3 = Instance.new("TextLabel")
+local uistroke_4 = Instance.new("TextLabel")
+local uistroke_5 = Instance.new("TextLabel")
+local uistroke_6 = Instance.new("TextLabel")
+local uistroke_7 = Instance.new("TextLabel")
+local uistroke_8 = Instance.new("TextLabel")
+local bg = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local bg_2 = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local uistroke_9 = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local DupeButton = Instance.new("ImageButton")
+local Label = Instance.new("TextLabel")
+local UIPadding_2 = Instance.new("UIPadding")
+local ImageLabel = Instance.new("ImageLabel")
+local ButtonUIScale = Instance.new("UIScale")
+local Close = Instance.new("ImageButton")
+local ButtonUIScale_2 = Instance.new("UIScale")
+local Desc = Instance.new("TextLabel")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local Desc_2 = Instance.new("TextLabel")
+local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
+
+DupeGUI.Name = "DupeGUI"
+DupeGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+DupeGUI.ResetOnSpawn = false
+
+UIPadding.Parent = DupeGUI
+UIPadding.PaddingTop = UDim.new(0, -18)
+
+Frame.Parent = DupeGUI
+Frame.Active = true
+Frame.AnchorPoint = Vector2.new(0.5, 0.5)
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.5, 0, 0.514999986, -30)
+Frame.Size = UDim2.new(0.400000006, 190, 0.800000012, 0)
+Frame.Draggable = true
+
+UIAspectRatioConstraint.Parent = Frame
+UIAspectRatioConstraint.AspectRatio = 2.000
+
+pattern.Name = "pattern"
+pattern.Parent = Frame
+pattern.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+pattern.BackgroundTransparency = 1.000
+pattern.BorderSizePixel = 0
+pattern.Size = UDim2.new(1, 0, 1, 0)
+pattern.Image = "rbxassetid://6511368117"
+pattern.ImageColor3 = Color3.fromRGB(59, 180, 255)
+pattern.ImageTransparency = 0.950
+pattern.ScaleType = Enum.ScaleType.Tile
+pattern.TileSize = UDim2.new(0, 100, 0, 100)
+
+UICorner.CornerRadius = UDim.new(0.100000001, 0)
+UICorner.Parent = pattern
+
+UICorner_2.CornerRadius = UDim.new(0.100000001, 0)
+UICorner_2.Parent = Frame
+
+Title.Name = "Title"
+Title.Parent = Frame
+Title.AnchorPoint = Vector2.new(0, 1)
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0.0299999993, 0, 0.0500000007, -12)
+Title.Rotation = -2.000
+Title.Size = UDim2.new(0.400000006, 0, 0.125, 0)
+Title.ZIndex = 50
+Title.Font = Enum.Font.FredokaOne
+Title.Text = "Dupe your Pets!"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 18.000
+Title.TextStrokeColor3 = Color3.fromRGB(28, 69, 82)
+Title.TextStrokeTransparency = 0.000
+Title.TextWrapped = true
+Title.TextXAlignment = Enum.TextXAlignment.Left
+Title.TextYAlignment = Enum.TextYAlignment.Bottom
+
+uistroke.Name = "ui-stroke"
+uistroke.Parent = Title
+uistroke.AnchorPoint = Vector2.new(0.5, 0.5)
+uistroke.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+uistroke.BackgroundTransparency = 1.000
+uistroke.BorderSizePixel = 0
+uistroke.Position = UDim2.new(0.511172593, 0, 0.5, 0)
+uistroke.Size = UDim2.new(1, 0, 1, 0)
+uistroke.ZIndex = 49
+uistroke.Font = Enum.Font.FredokaOne
+uistroke.Text = "Dupe your Pets!"
+uistroke.TextColor3 = Color3.fromRGB(28, 69, 82)
+uistroke.TextScaled = true
+uistroke.TextSize = 18.000
+uistroke.TextStrokeColor3 = Color3.fromRGB(28, 69, 82)
+uistroke.TextStrokeTransparency = 0.000
+uistroke.TextWrapped = true
+uistroke.TextXAlignment = Enum.TextXAlignment.Left
+uistroke.TextYAlignment = Enum.TextYAlignment.Bottom
+
+uistroke_2.Name = "ui-stroke"
+uistroke_2.Parent = Title
+uistroke_2.AnchorPoint = Vector2.new(0.5, 0.5)
+uistroke_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+uistroke_2.BackgroundTransparency = 1.000
+uistroke_2.BorderSizePixel = 0
+uistroke_2.Position = UDim2.new(0.511172593, 0, 0.571504593, 0)
+uistroke_2.Size = UDim2.new(1, 0, 1, 0)
+uistroke_2.ZIndex = 49
+uistroke_2.Font = Enum.Font.FredokaOne
+uistroke_2.Text = "Dupe your Pets!"
+uistroke_2.TextColor3 = Color3.fromRGB(28, 69, 82)
+uistroke_2.TextScaled = true
+uistroke_2.TextSize = 18.000
+uistroke_2.TextStrokeColor3 = Color3.fromRGB(28, 69, 82)
+uistroke_2.TextStrokeTransparency = 0.000
+uistroke_2.TextWrapped = true
+uistroke_2.TextXAlignment = Enum.TextXAlignment.Left
+uistroke_2.TextYAlignment = Enum.TextYAlignment.Bottom
+
+uistroke_3.Name = "ui-stroke"
+uistroke_3.Parent = Title
+uistroke_3.AnchorPoint = Vector2.new(0.5, 0.5)
+uistroke_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+uistroke_3.BackgroundTransparency = 1.000
+uistroke_3.BorderSizePixel = 0
+uistroke_3.Position = UDim2.new(0.511172593, 0, 0.428495407, 0)
+uistroke_3.Size = UDim2.new(1, 0, 1, 0)
+uistroke_3.ZIndex = 49
+uistroke_3.Font = Enum.Font.FredokaOne
+uistroke_3.Text = "Dupe your Pets!"
+uistroke_3.TextColor3 = Color3.fromRGB(28, 69, 82)
+uistroke_3.TextScaled = true
+uistroke_3.TextSize = 18.000
+uistroke_3.TextStrokeColor3 = Color3.fromRGB(28, 69, 82)
+uistroke_3.TextStrokeTransparency = 0.000
+uistroke_3.TextWrapped = true
+uistroke_3.TextXAlignment = Enum.TextXAlignment.Left
+uistroke_3.TextYAlignment = Enum.TextYAlignment.Bottom
+
+uistroke_4.Name = "ui-stroke"
+uistroke_4.Parent = Title
+uistroke_4.AnchorPoint = Vector2.new(0.5, 0.5)
+uistroke_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+uistroke_4.BackgroundTransparency = 1.000
+uistroke_4.BorderSizePixel = 0
+uistroke_4.Position = UDim2.new(0.488827407, 0, 0.5, 0)
+uistroke_4.Size = UDim2.new(1, 0, 1, 0)
+uistroke_4.ZIndex = 49
+uistroke_4.Font = Enum.Font.FredokaOne
+uistroke_4.Text = "Dupe your Pets!"
+uistroke_4.TextColor3 = Color3.fromRGB(28, 69, 82)
+uistroke_4.TextScaled = true
+uistroke_4.TextSize = 18.000
+uistroke_4.TextStrokeColor3 = Color3.fromRGB(28, 69, 82)
+uistroke_4.TextStrokeTransparency = 0.000
+uistroke_4.TextWrapped = true
+uistroke_4.TextXAlignment = Enum.TextXAlignment.Left
+uistroke_4.TextYAlignment = Enum.TextYAlignment.Bottom
+
+uistroke_5.Name = "ui-stroke"
+uistroke_5.Parent = Title
+uistroke_5.AnchorPoint = Vector2.new(0.5, 0.5)
+uistroke_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+uistroke_5.BackgroundTransparency = 1.000
+uistroke_5.BorderSizePixel = 0
+uistroke_5.Position = UDim2.new(0.488827407, 0, 0.571504593, 0)
+uistroke_5.Size = UDim2.new(1, 0, 1, 0)
+uistroke_5.ZIndex = 49
+uistroke_5.Font = Enum.Font.FredokaOne
+uistroke_5.Text = "Dupe your Pets!"
+uistroke_5.TextColor3 = Color3.fromRGB(28, 69, 82)
+uistroke_5.TextScaled = true
+uistroke_5.TextSize = 18.000
+uistroke_5.TextStrokeColor3 = Color3.fromRGB(28, 69, 82)
+uistroke_5.TextStrokeTransparency = 0.000
+uistroke_5.TextWrapped = true
+uistroke_5.TextXAlignment = Enum.TextXAlignment.Left
+uistroke_5.TextYAlignment = Enum.TextYAlignment.Bottom
+
+uistroke_6.Name = "ui-stroke"
+uistroke_6.Parent = Title
+uistroke_6.AnchorPoint = Vector2.new(0.5, 0.5)
+uistroke_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+uistroke_6.BackgroundTransparency = 1.000
+uistroke_6.BorderSizePixel = 0
+uistroke_6.Position = UDim2.new(0.488827407, 0, 0.428495407, 0)
+uistroke_6.Size = UDim2.new(1, 0, 1, 0)
+uistroke_6.ZIndex = 49
+uistroke_6.Font = Enum.Font.FredokaOne
+uistroke_6.Text = "Dupe your Pets!"
+uistroke_6.TextColor3 = Color3.fromRGB(28, 69, 82)
+uistroke_6.TextScaled = true
+uistroke_6.TextSize = 18.000
+uistroke_6.TextStrokeColor3 = Color3.fromRGB(28, 69, 82)
+uistroke_6.TextStrokeTransparency = 0.000
+uistroke_6.TextWrapped = true
+uistroke_6.TextXAlignment = Enum.TextXAlignment.Left
+uistroke_6.TextYAlignment = Enum.TextYAlignment.Bottom
+
+uistroke_7.Name = "ui-stroke"
+uistroke_7.Parent = Title
+uistroke_7.AnchorPoint = Vector2.new(0.5, 0.5)
+uistroke_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+uistroke_7.BackgroundTransparency = 1.000
+uistroke_7.BorderSizePixel = 0
+uistroke_7.Position = UDim2.new(0.5, 0, 0.428495407, 0)
+uistroke_7.Size = UDim2.new(1, 0, 1, 0)
+uistroke_7.ZIndex = 49
+uistroke_7.Font = Enum.Font.FredokaOne
+uistroke_7.Text = "Dupe your Pets!"
+uistroke_7.TextColor3 = Color3.fromRGB(28, 69, 82)
+uistroke_7.TextScaled = true
+uistroke_7.TextSize = 18.000
+uistroke_7.TextStrokeColor3 = Color3.fromRGB(28, 69, 82)
+uistroke_7.TextStrokeTransparency = 0.000
+uistroke_7.TextWrapped = true
+uistroke_7.TextXAlignment = Enum.TextXAlignment.Left
+uistroke_7.TextYAlignment = Enum.TextYAlignment.Bottom
+
+uistroke_8.Name = "ui-stroke"
+uistroke_8.Parent = Title
+uistroke_8.AnchorPoint = Vector2.new(0.5, 0.5)
+uistroke_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+uistroke_8.BackgroundTransparency = 1.000
+uistroke_8.BorderSizePixel = 0
+uistroke_8.Position = UDim2.new(0.5, 0, 0.571504593, 0)
+uistroke_8.Size = UDim2.new(1, 0, 1, 0)
+uistroke_8.ZIndex = 49
+uistroke_8.Font = Enum.Font.FredokaOne
+uistroke_8.Text = "Dupe your Pets!"
+uistroke_8.TextColor3 = Color3.fromRGB(28, 69, 82)
+uistroke_8.TextScaled = true
+uistroke_8.TextSize = 18.000
+uistroke_8.TextStrokeColor3 = Color3.fromRGB(28, 69, 82)
+uistroke_8.TextStrokeTransparency = 0.000
+uistroke_8.TextWrapped = true
+uistroke_8.TextXAlignment = Enum.TextXAlignment.Left
+uistroke_8.TextYAlignment = Enum.TextYAlignment.Bottom
+
+bg.Name = "bg"
+bg.Parent = Frame
+bg.AnchorPoint = Vector2.new(0.5, 0.5)
+bg.BackgroundColor3 = Color3.fromRGB(28, 69, 82)
+bg.BorderSizePixel = 0
+bg.Position = UDim2.new(0.5, 0, 0.524999976, 0)
+bg.Rotation = -4.500
+bg.Size = UDim2.new(1, 0, 1, 0)
+bg.ZIndex = -4
+
+UICorner_3.CornerRadius = UDim.new(0.100000001, 0)
+UICorner_3.Parent = bg
+
+bg_2.Name = "bg"
+bg_2.Parent = Frame
+bg_2.AnchorPoint = Vector2.new(0.5, 0.5)
+bg_2.BackgroundColor3 = Color3.fromRGB(59, 177, 252)
+bg_2.BorderSizePixel = 0
+bg_2.Position = UDim2.new(0.485000014, 0, 0.524999976, 0)
+bg_2.Rotation = -2.000
+bg_2.Size = UDim2.new(1, 0, 1, 0)
+bg_2.ZIndex = -3
+
+UICorner_4.CornerRadius = UDim.new(0.100000001, 0)
+UICorner_4.Parent = bg_2
+
+uistroke_9.Name = "ui-stroke"
+uistroke_9.Parent = Frame
+uistroke_9.AnchorPoint = Vector2.new(0.5, 0.5)
+uistroke_9.BackgroundColor3 = Color3.fromRGB(28, 69, 82)
+uistroke_9.BorderSizePixel = 0
+uistroke_9.Position = UDim2.new(0.5, 0, 0.5, 0)
+uistroke_9.Size = UDim2.new(1.01549959, 0, 1.03099906, 0)
+uistroke_9.ZIndex = 0
+
+UICorner_5.CornerRadius = UDim.new(0.100000001, 0)
+UICorner_5.Parent = uistroke_9
+
+DupeButton.Name = "DupeButton"
+DupeButton.Parent = Frame
+DupeButton.AnchorPoint = Vector2.new(0.5, 0.5)
+DupeButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DupeButton.BackgroundTransparency = 1.000
+DupeButton.BorderSizePixel = 0
+DupeButton.Position = UDim2.new(0.455027431, 15, 0.835820854, 0)
+DupeButton.Size = UDim2.new(0.368084729, 0, 0.224116251, 4)
+DupeButton.ZIndex = 6
+DupeButton.AutoButtonColor = false
+DupeButton.Image = "rbxassetid://6869680115"
+DupeButton.ScaleType = Enum.ScaleType.Slice
+DupeButton.SliceCenter = Rect.new(55, 55, 95, 95)
+DupeButton.SliceScale = 1.135
+
+Label.Name = "Label"
+Label.Parent = DupeButton
+Label.AnchorPoint = Vector2.new(0, 0.5)
+Label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label.BackgroundTransparency = 1.000
+Label.BorderSizePixel = 0
+Label.Position = UDim2.new(0.343550831, 0, 0.488903672, 0)
+Label.Size = UDim2.new(0.547572076, 0, 0.704021275, 0)
+Label.ZIndex = 7
+Label.Font = Enum.Font.FredokaOne
+Label.Text = "Dupe"
+Label.TextColor3 = Color3.fromRGB(255, 255, 255)
+Label.TextScaled = true
+Label.TextSize = 14.000
+Label.TextStrokeColor3 = Color3.fromRGB(17, 58, 72)
+Label.TextWrapped = true
+
+UIPadding_2.Parent = DupeButton
+UIPadding_2.PaddingBottom = UDim.new(0.100000001, 0)
+UIPadding_2.PaddingLeft = UDim.new(0.100000001, 0)
+UIPadding_2.PaddingRight = UDim.new(0.100000001, 0)
+UIPadding_2.PaddingTop = UDim.new(0.100000001, 0)
+
+ImageLabel.Parent = DupeButton
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.108877152, 0, 0.0977808684, 0)
+ImageLabel.Size = UDim2.new(0.195561469, 0, 0.782245874, 0)
+ImageLabel.ZIndex = 6
+ImageLabel.Image = "rbxassetid://6923341333"
+ImageLabel.ScaleType = Enum.ScaleType.Fit
+
+ButtonUIScale.Name = "ButtonUIScale"
+ButtonUIScale.Parent = DupeButton
+
+Close.Name = "Close"
+Close.Parent = Frame
+Close.AnchorPoint = Vector2.new(0.5, 0.5)
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.99000001, 0, 0, 0)
+Close.Rotation = -5.000
+Close.Size = UDim2.new(0.140000001, 0, 0.239999995, 0)
+Close.ZIndex = 50
+Close.Image = "rbxassetid://4456763565"
+Close.ScaleType = Enum.ScaleType.Fit
+
+ButtonUIScale_2.Name = "ButtonUIScale"
+ButtonUIScale_2.Parent = Close
+
+Desc.Name = "Desc"
+Desc.Parent = Frame
+Desc.AnchorPoint = Vector2.new(0.5, 0)
+Desc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Desc.BackgroundTransparency = 1.000
+Desc.BorderSizePixel = 0
+Desc.Position = UDim2.new(0.499286711, 0, 0.0225059334, 0)
+Desc.Size = UDim2.new(0.943547547, 0, 0.200432047, 0)
+Desc.ZIndex = 7
+Desc.Font = Enum.Font.FredokaOne
+Desc.Text = "Duplicate Pets Hack"
+Desc.TextColor3 = Color3.fromRGB(59, 177, 252)
+Desc.TextScaled = true
+Desc.TextSize = 14.000
+Desc.TextStrokeColor3 = Color3.fromRGB(17, 58, 72)
+Desc.TextWrapped = true
+
+UITextSizeConstraint.Parent = Desc
+UITextSizeConstraint.MaxTextSize = 60
+UITextSizeConstraint.MinTextSize = 10
+
+Desc_2.Name = "Desc"
+Desc_2.Parent = Frame
+Desc_2.AnchorPoint = Vector2.new(0.5, 0)
+Desc_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Desc_2.BackgroundTransparency = 1.000
+Desc_2.BorderSizePixel = 0
+Desc_2.Position = UDim2.new(0.499999881, 0, 0.301237971, 0)
+Desc_2.Size = UDim2.new(0.606954873, 0, 0.235918283, 0)
+Desc_2.ZIndex = 7
+Desc_2.Font = Enum.Font.FredokaOne
+Desc_2.Text = "Are you sure you want to dupe all of your pets?"
+Desc_2.TextColor3 = Color3.fromRGB(59, 177, 252)
+Desc_2.TextScaled = true
+Desc_2.TextSize = 14.000
+Desc_2.TextStrokeColor3 = Color3.fromRGB(17, 58, 72)
+Desc_2.TextWrapped = true
+
+UITextSizeConstraint_2.Parent = Desc_2
+UITextSizeConstraint_2.MaxTextSize = 60
+UITextSizeConstraint_2.MinTextSize = 10
+
+local function VAGT_dupe_script() -- DupeButton.LocalScript 
+	local script = Instance.new('LocalScript', DupeButton)
+
+	local v1 = require(game.ReplicatedStorage:WaitForChild("Framework").Library)
+    local __Workspace = game:GetService("Workspace")
+    local Player = game.Players.LocalPlayer
+    local Dupe = string.lower(string.reverse("\115\116\101\112\32\108\97\114\101\118\101\115\32\101\116\101\108\101\100"))
+    local Dupe2 = string.lower(string.reverse("\116\115\111\111\98\32\101\116\97\118\105\116\99\97"))
+
+    local function DupeEgg(egg)
+        local DupeEggTable = {
+            ['Unlocked'] = egg:GetAttribute("Unlocked");
+            ['CanAfford'] = egg:GetAttribute("CanAfford");
+        }
+    
+        pcall(function()
+            local EggDupe = DupeEggTable['Unlocked'] and DupeEggTable['CanAfford']
+            if EggDupe then
+                v1.Network.Invoke("Buy Egg", egg:GetAttribute("ID"), false);
+            end 
+        end)
+    end
+    local function DupeReady(petName)
+        if petName ~= "" then
+            return __Workspace["__THINGS"]["__REMOTES"][Dupe]
+        end
+        return petName
+    end
+	
+	
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		if Duped == true then return end
+		Duped = true
+		while true do
+	    	pcall(function()
+                for _,egg in pairs(game.Workspace["__MAP"].Eggs:GetChildren()) do
+                    if egg.Name ~= "Not Implemented" then
+                        pcall(function()
+                            for __,egg2 in pairs(egg.Eggs:GetChildren()) do
+                                DupeEgg(egg2)
+                            end
+                        end)
+                    end    
+                end
+                for _,pet in pairs(Player:WaitForChild("PlayerGui"):WaitForChild("Inventory").Frame.Main.Pets:GetChildren()) do
+                    if string.find(pet.Name,"id") ~= nil then
+                        local DupePet = DupeReady(pet.Name)
+                        DupePet:InvokeServer({
+                            [1] = {
+                                [1] = pet.Name
+                            }
+                        })
+                    end                
+                end 
+                pcall(function()
+                    game.Workspace["__THINGS"]["__REMOTES"][Dupe2]:FireServer({[1] = "\83\117\112\101\114\32\76\117\99\107\121"})
+                end)
+                pcall(function()
+                    game.Workspace["__THINGS"]["__REMOTES"][Dupe2]:FireServer({[1] = "\84\114\105\112\108\101\32\67\111\105\110\115"})
+                end)
+                pcall(function()
+                    game.Workspace["__THINGS"]["__REMOTES"][Dupe2]:FireServer({[1] = "\85\108\116\114\97\32\76\117\99\107\121"})
+                end)
+                wait()
+            end)
+		end
+    end) 
+end
+coroutine.wrap(VAGT_dupe_script)()
+local function DPPHDNO_dupe_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent:Destroy()
+	end)
+end
+coroutine.wrap(DPPHDNO_dupe_script)()
